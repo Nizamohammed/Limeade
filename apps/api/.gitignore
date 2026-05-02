@@ -1,0 +1,12 @@
+.venv
+__pycache__
+.env*
+!.env.example
+
+.ruff_cache
+
+# Python
+*.py[cod]
+*.pt
+*.pth
+venv/
