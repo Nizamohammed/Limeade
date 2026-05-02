@@ -76,8 +76,6 @@ pnpm dev
 
 ## What's Next
 
-## What's Next
-
 The hackathon system is the foundation for ongoing research targeting 
 a fully edge-native deployment. Planned directions include:
 
