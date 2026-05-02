@@ -81,3 +81,11 @@ directions include replacing the cloud Haiku API with an on-device
 distilled model, RL-based adaptive compute allocation, and full 
 deployment on Jetson Orin Nano targeting sub-200ms end-to-end latency.
 
+---
+
+## Note
+
+This is a clone of the original hackathon repository 
+([Lime_Scooter_Safety](https://github.com/plambre0/Lime_Scooter_Safety)). 
+This repo represents my continuation of the project as I work on 
+further developing and improving the system beyond the hackathon version.
