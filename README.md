@@ -76,10 +76,30 @@ pnpm dev
 
 ## What's Next
 
-The hackathon system is the foundation for ongoing research. Planned 
-directions include replacing the cloud Haiku API with an on-device 
-distilled model, RL-based adaptive compute allocation, and full 
-deployment on Jetson Orin Nano targeting sub-200ms end-to-end latency.
+## What's Next
+
+The hackathon system is the foundation for ongoing research targeting 
+a fully edge-native deployment. Planned directions include:
+
+**On-Device Reasoning** — replacing the cloud Claude Haiku API call 
+with a distilled on-device model trained on Haiku's threat assessments. 
+Target is >90% agreement with Haiku's decisions at under 5ms inference 
+time, compared to the current ~500ms API round trip.
+
+**Adaptive Detection Policy** — an RL-based contextual bandit that 
+learns to allocate compute dynamically based on riding context such as 
+speed, time of day, and location density, rather than running full 
+inference on every frame unconditionally.
+
+**Edge Hardware Deployment** — migrating the entire pipeline from a 
+phone + cloud backend setup to a Jetson Orin Nano mounted on the 
+scooter, targeting sub-200ms end-to-end latency with no cloud 
+dependency.
+
+**Crowdsourced Hazard Mapping** — expanding the existing GPS hazard 
+logging into a privacy-preserving aggregated heatmap, where no raw 
+imagery is stored and individual rider routes cannot be reconstructed.
+
 
 ---
 
